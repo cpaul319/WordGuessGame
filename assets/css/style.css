@@ -1,0 +1,119 @@
+html{
+     
+    
+}
+body{
+    background-image:url(../images/hangman.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+ 
+h1{
+    margin: 0;
+    text-align: center;
+    font-display: bold;
+    color:#ffffff;
+}
+ 
+ p{
+     color: #ffffff;
+
+ }
+.gameheading, #guessLetterCount, .guessheading, .wordspace, .heading, #guessedletters {
+    margin: 0;
+    text-align: center;
+    font-display: bold;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+ 
+ #game-image{
+     float: left;
+     margin-left: 10.5%;
+     width:200px;
+     height: 200px;
+      
+ }
+ #userGuess{
+     color: #ffffff;
+     }
+
+
+#lastname, #wordGuess, #wins, #losses,#userlives, #display
+     {margin: 0;
+     text-align: center;
+     font-display: bold;
+     color:red;
+     font-size: 30px;}
+ 
+ 
+#gameInstructions {
+    margin-left: 5%;
+   
+    font-display: bold;
+    color:red;
+    text-align: center;
+}
+ 
+.gameLogo{
+    height:20%;
+    margin: 5%;
+    
+}
+ 
+.row{
+    margin:0;
+     height: 70px; 
+    
+ 
+}
+.col{
+    margin:1%;
+        height: 50px;
+        width:390px; 
+}
+.container{
+    font-family: 'Trocchi', serif;
+    width:1060px;
+    height:auto;
+    padding:0;
+    margin-top: 60px;
+    margin-bottom: 320px;
+    /* margin:0 auto; */
+    border: 1px solid #ffffff;
+    background-color: black
+}
+
+#buttons{
+    align-content: center;
+    background-color: black;
+  margin: auto;
+    color: #ffffff;
+}
+#display {
+    /* margin-top: 78px; */
+    height: auto;
+    /* width: 220px;
+    margin-left: 60px; */
+  }
+ .letter {
+    width: 30px;
+    height: 30px;
+    /* border-style: solid; */
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  /* .letter-button-color {
+    color: #ffffff;
+  }
+
+  .fridge-color {
+    color:#ffffff;
+  }  */
+
+ 
+
+      
